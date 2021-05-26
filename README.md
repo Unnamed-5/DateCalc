@@ -28,5 +28,5 @@ For example:
 
 ```swift
 // if today is 2020-5-10 and a date variable called "someDay" is set to 2020-5-15
-print(daysToNextDay(of: date)) // output: 5
+print(daysToNextDay(of: someDay)) // output: 5
 ```
