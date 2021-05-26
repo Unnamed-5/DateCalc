@@ -30,3 +30,9 @@ For example:
 // if today is 2020-5-10 and a date variable called "someDay" is set to 2020-5-15
 print(daysToNextDay(of: someDay)) // output: 5
 ```
+
+# Implementation
+To use this, just drag the DateCalc.swift file into your project, and you can use these extensions and functions anywhere.
+
+# P.S.
+I am using this in my app, Birthday Notes, which is aviailable on the App Store.
