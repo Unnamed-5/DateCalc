@@ -12,12 +12,21 @@ Get the next occurrence of a given date:
 
 ```swift
 //if today is 2020-5-15
-print(NextDay(of: Date()) //output: 2021-5-15
+print(nextDay(of: Date()) //output: 2021-5-15
 ```
 
 Of course, this supports 2-29, which appears every 4 years:
 
 ```swift
-//if today is 2020-2-29
-print(NextDay(of: Date()) //output: 2024-2-29
+// if today is 2020-2-29
+print(nextDay(of: Date()) //output: 2024-2-29
+```
+
+Another function `daysToNextDay(of date: Date)` is for calculating how many days is left before that next occurrence comes.
+
+For example:
+
+```swift
+// if today is 2020-5-10 and a date variable called "someDay" is set to 2020-5-15
+print(daysToNextDay(of: date)) // output: 5
 ```
