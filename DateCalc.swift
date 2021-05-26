@@ -78,3 +78,12 @@ func nextDay(of date: Date) -> Date {
     
     return nextDay
 }
+
+func daysToNextDay(of date: Date) -> Int {
+    
+    let nextDate = nextDay(of: date)
+    
+    let difference = cal.dateComponents([.day], from: Date().startOfDay, to: nextDate).day!
+    
+    return difference
+}
