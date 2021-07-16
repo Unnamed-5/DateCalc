@@ -13,7 +13,7 @@ print(Date().year) //example output: 2021
 Get the next occurrence of a given date:
 
 ```swift
-//if today is 2020-5-15
+// if today is 2020-5-15
 print(nextDay(of: Date()) //output: 2021-5-15
 ```
 
@@ -29,7 +29,7 @@ Another function `daysToNextDay(of date: Date)` is for calculating how many days
 For example:
 
 ```swift
-// if today is 2020-5-10 and a date variable called "someDay" is set to 2020-5-15
+// if today is 2021-5-10 and a date variable called "someDay" is set to 2020-5-15
 print(daysToNextDay(of: someDay)) // output: 5
 ```
 
