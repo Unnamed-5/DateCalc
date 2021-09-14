@@ -1,4 +1,4 @@
-# Introduction
+# DateCalc
 
 Some simple functions to calculate dates.
 Supports non-gregorian calendars.
